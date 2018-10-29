@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "babel-node server/server.js",
     "start": "npm-run-all --parallel open:src",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test and this is a tiny test specified\" && exit 1",
     "open:src": "babel-watch server/server.js"
   },
   "author": "",
